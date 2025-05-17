@@ -5,8 +5,14 @@ h3,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
 }
 
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
 h1 {
   font-size: 26px;
 
@@ -62,4 +68,16 @@ footer p {
 
 .related {
   list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  /* bottom-left: 5px sollid #1098ad; */
+  /* bottom-right: 5px solid #1098ad; */
 }
