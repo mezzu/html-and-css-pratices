@@ -1,3 +1,6 @@
+body {
+}
+
 h1,
 h2,
 h3,
@@ -80,4 +83,48 @@ aside {
   border-bottom: 5px solid #1098ad;
   /* bottom-left: 5px sollid #1098ad; */
   /* bottom-right: 5px solid #1098ad; */
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(even) {
+  color: red;
+}
+
+/* Misconception: this wont work*/
+article p:first-child {
+  color: red;
+}
+
+/* styling links  */
+a:link {
+  color: #0198ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* Link, visited, Hover and active  */
+
+nav {
+  font-size: 18px;
 }
