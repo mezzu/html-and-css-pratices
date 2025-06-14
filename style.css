@@ -5,6 +5,13 @@
 }
 
 body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+}
+
+.container {
+  width: 700px;
 }
 
 .main-header {
@@ -30,6 +37,7 @@ article {
 .post-header {
   margin-bottom: 40px;
 }
+
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
